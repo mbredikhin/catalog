@@ -1,0 +1,15 @@
+.catalog {
+  @apply w-2/3 flex flex-col justify-center items-center mx-auto;
+}
+.catalog__title {
+  @apply px-2 py-4 text-black text-3xl font-sans font-bold;
+}
+.links {
+  @apply flex gap-4;
+}
+.links__link {
+  @apply bg-gray-100 py-2 px-6 text-black font-sans font-medium rounded-full cursor-pointer no-underline transition;
+  &:hover {
+    @apply bg-blue-400 text-white shadow-lg;
+  }
+}
